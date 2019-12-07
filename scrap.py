@@ -52,8 +52,11 @@ joueurs=[ {
               "Liam CAILLET":0,
               "Paul CERISARA":0,
               "Adil CHERGUI":0,
+              "Mathias COLLE":0,
               "Loham GAILLAT":0,
               "Gabin GROBSHEISER":0,
+              "Marlone LEJEUNE-ROUSSEL":0,
+              "Simon TROTOT":0,
               "Pierre UNTEREINER":0,
               },
           {

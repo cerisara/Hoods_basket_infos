@@ -10,17 +10,11 @@ def make_page(ii):
     <head>
         <meta charset="utf-8">
         <title>Houds Info """+ii[0]+"""</title>
-        <link rel="stylesheet" href="https://olki.loria.fr/platform/style.7524b05e.css">
         <link href="page1.css" rel="stylesheet">
     </head>
     <body>
-<<<<<<< HEAD
-        <p id="u1x" value='"""+inf[0]+"""'></p>
-        <p id="journee" value='"""+str(inf[6])+"""'></p>
-=======
         <p id="u1x" value='"""+ii[0]+"""'></p>
         <p id="journee" value='"""+str(ii[6])+"""'></p>
->>>>>>> 1e1941ad9707839e1107f8f8e31f2a2a60ad749a
         
         <div class="body-wrap boxed-container" style="background-color:rgb(200,250,200);">
             <main>
