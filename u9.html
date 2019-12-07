@@ -6,8 +6,8 @@
         <link href="page1.css" rel="stylesheet">
     </head>
     <body>
-        <p id="u1x" value='u9'></p>
-        <p id="journee" value='5'></p>
+        <script>var equip='u9';</script>
+        <script>var journ='5';</script>
         
         <div class="body-wrap boxed-container" style="background-color:rgb(200,250,200);">
             <main>
@@ -29,7 +29,7 @@
                 </div>
                 <ul style='text-align: left; list-style-type: none;'>
         
-                <div class="joueur" id='' style='color:black; border-radius:25px; padding-left:20px; padding-right:auto; background-color:rgb(40,120,60); border:2px solid black;'><li>  : <span style='display: inline-block;'><input type="checkbox" id='pr' name="present" onChange="onChangeBox('pr')"><label for="present">Present</label></input></span> <input type="checkbox" id='ab' name="absent" onChange="onChangeBox('ab')><label for="absent">Absent</label></input> </li></div>
+                <div class="joueur" id='' style='color:black; border-radius:25px; padding-left:20px; padding-right:auto; background-color:rgb(40,120,60); border:2px solid black;'><li>  : <span style='display: inline-block;'><input type="radio" id='pr' name='radio' onChange="onChangeBox('pr')"><label>Present</label></input></span> <input id='ab' type='radio' name='radio' onChange="onChangeBox('ab')"><label>Absent</label></input> </li></div>
                 </ul>
             </section>
         </div>
